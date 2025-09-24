@@ -1,10 +1,10 @@
-// Projekt: Odczyt temperatury i ciœnienia z BMP280 na AVR
+// Projekt: Odczyt temperatury i cisnienia z BMP280 na AVR
 // Mikrokontroler: ATmega328P / Arduino Uno
-// Komunikacja: I2C (TWI), UART do wysy³ania danych
+// Komunikacja: I2C (TWI), UART do wysylania danych
 // Autor: Kamil
-// Data: 21.09.2025
-// Opis: Program odczytuje temperaturê i ciœnienie z BMP280,
-// przetwarza je i wysy³a przez UART.
+// Data: 24.09.2025
+// Opis: Program odczytuje temperature i cisnienie z BMP280,
+// przetwarza je i wysyla przez UART.
 
 #include "bmp280.h"
 #include "config.h"
