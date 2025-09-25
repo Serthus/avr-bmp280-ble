@@ -72,5 +72,19 @@ Legenda przewodów:
 - czerwony → UART TX
 - niebieski → UART RX
 
+## Hardware setup
+
+Poniżej przykładowe podłączenie układu na płytce stykowej:
+
+![Układ na breadboardzie](images/image.jpg)
+
+Legenda przewodów:
+- Pomarańczowy → VCC (zasilanie)
+- Czarny → GND
+- Żółty → SDA
+- Zielony → SCL
+- Czerwony → UART TX
+- Niebieski → UART RX
+
 ## Autor
 Projekt stworzony w celach edukacyjnych – **[Serthus](https://github.com/Serthus)**.
