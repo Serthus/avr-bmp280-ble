@@ -10,7 +10,6 @@ Projekt embedded realizowany na mikrokontrolerze AVR (np. ATmega328P), którego 
 - Odczyt i obliczanie wartości **temperatury [°C]** oraz **ciśnienia [hPa]**.
 - Wysyłanie danych w formie tekstowej przez **UART → BLE**.
 - Możliwość odbioru pomiarów w terminalu Bluetooth na telefonie.
-- Obsługa diod LED do prostych sygnalizacji stanu.
 
 ## Wymagania sprzętowe
 - Mikrokontroler AVR (np. ATmega328P @ 16 MHz).
@@ -42,6 +41,7 @@ Cisnienie: 1028.50 hPa
 
 ## Struktura repozytorium
 ```
+.
 ├── main.c # główny kod programu
 ├── bmp280.c/.h # obsługa BMP280
 ├── twi.c/.h # obsługa I2C (TWI)
