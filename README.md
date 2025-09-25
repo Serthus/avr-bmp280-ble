@@ -14,7 +14,7 @@ Projekt embedded realizowany na mikrokontrolerze AVR (np. ATmega328P), którego 
 ## Wymagania sprzętowe
 - Mikrokontroler AVR (np. ATmega328P @ 16 MHz).
 - Czujnik **BMP280** (I2C).
-- Moduł Bluetooth 4.0 BLE – HM-10 / AT-09 – MLT-BT05 (3,3V/5V) [inne kompatybilne moduły: HC-05, HC-06, BLE UART]
+- Moduł Bluetooth 4.0 BLE – HM-10 / AT-09 – MLT-BT05 (3,3V/5V).
 - Zasilanie 5V / 3.3V.
 
 ## Wymagania programowe
