@@ -41,7 +41,6 @@ Cisnienie: 1028.50 hPa
 
 ## Struktura repozytorium
 ```
-.
 ├── main.c # główny kod programu
 ├── bmp280.c/.h # obsługa BMP280
 ├── twi.c/.h # obsługa I2C (TWI)
