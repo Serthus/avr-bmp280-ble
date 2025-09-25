@@ -50,7 +50,7 @@ void BMP280_reset(void)
 }
 void BMP280_config_control(void)
 {
-	BMP280_WriteReg(CTRL_MEAS, 0x29); // ustawione forced mode, low power pressure
+	BMP280_WriteReg(CTRL_MEAS, 0x29);
 	BMP280_WriteReg(CONFIG, 0x00);
 }
 void BMP280_calibration_data(void)
