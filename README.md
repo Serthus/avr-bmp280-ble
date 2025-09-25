@@ -41,12 +41,14 @@ Cisnienie: 1028.50 hPa
 5. Powtarzanie pomiaru co 5 sekund.
 
 ## Struktura repozytorium
+```
 ├── main.c # główny kod programu
 ├── bmp280.c/.h # obsługa BMP280
 ├── twi.c/.h # obsługa I2C (TWI)
 ├── uart.c/.h # obsługa UART
 ├── config.h # konfiguracja
 └── README.md # dokumentacja
+```
 
 ## Możliwe ulepszenia
 - Dodanie obsługi wyświetlacza LCD / OLED.
