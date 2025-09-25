@@ -1,10 +1,10 @@
-// Projekt: Odczyt temperatury i cisnienia z BMP280 na AVR
-// Mikrokontroler: ATmega328P / Arduino Uno
-// Komunikacja: I2C (TWI), UART do wysylania danych
-// Autor: Kamil
-// Data: 24.09.2025
-// Opis: Program odczytuje temperature i cisnienie z BMP280,
-// przetwarza je i wysyla przez UART.
+// Project: Read temperature and pressure from BMP280 on AVR
+// Microcontroller: ATmega328P / Arduino Uno
+// Communication: I2C (TWI), UART for data transmission
+// Author: Kamil
+// Date: 24.09.2025
+// Description: Reads temperature and pressure from BMP280,
+// processes data and sends it over UART.
 
 #include "bmp280.h"
 #include "config.h"
@@ -16,13 +16,13 @@
 
 int main(void)
 {	
-	uart_init(); //UART sterujacy BLE
-	TWI_init(); // barometr na i2c
+	uart_init();
+	TWI_init();
 	
 	BMP280_check_error();
 	BMP280_reset();
-	BMP280_config_control(); // ustawienie config oraz control
-	BMP280_calibration_data(); // nie jest to potrzebne do odczytu temperatury
+	BMP280_config_control();
+	BMP280_calibration_data();
 	while (1)
 	{
 		read_temperature_pressure();
