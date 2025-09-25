@@ -42,9 +42,12 @@ Cisnienie: 1028.50 hPa
 ## Struktura repozytorium
 ```
 ├── main.c # główny kod programu
-├── bmp280.c/.h # obsługa BMP280
-├── twi.c/.h # obsługa I2C (TWI)
-├── uart.c/.h # obsługa UART
+├── bmp280.c # implementacja obsługi BMP280
+├── bmp280.h # nagłówek dla BMP280
+├── twi.c # implementacja obsługi I2C (TWI)
+├── twi.h # nagłówek dla TWI
+├── uart.c # implementacja obsługi UART
+├── uart.h # nagłówek dla UART
 ├── config.h # konfiguracja
 └── README.md # dokumentacja
 ```
