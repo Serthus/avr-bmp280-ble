@@ -4,21 +4,20 @@
 #include <stdint.h>
 
 #define BMP280_ADDR 0x76 // Adres I2C BMP280
-#define BMP280_CHIP_ADDRESS 0x58 // WartoúÊ ID chipu
+#define BMP280_CHIP_ADDRESS 0x58 // Warto≈ì√¶ ID chipu
 
 #define ID 0xD0 // Rejestr identyfikacyjny BMP280
 #define RESET 0xE0 // Rejestr resetu
 #define STATUS 0xF3 // Rejestr statusu
 #define CTRL_MEAS 0xF4 // Rejestr konfiguracji pomiaru
 #define CONFIG 0xF5 // Rejestr konfiguracji
-#define PRESS_MSB 0xF7 // Rejestr MSB ciúnienia
-#define PRESS_LSB 0xF8 // Rejestr LSB ciúnienia
-#define PRESS_XLSB 0xF9 // Rejestr XLSB ciúnienia
+#define PRESS_MSB 0xF7 // Rejestr MSB ci≈ìnienia
+#define PRESS_LSB 0xF8 // Rejestr LSB ci≈ìnienia
+#define PRESS_XLSB 0xF9 // Rejestr XLSB ci≈ìnienia
 #define TEMP_MSB 0xFA // Rejestr MSB temperatury
 #define TEMP_LSB 0xFB // Rejestr LSB temperatury
 #define TEMP_XLSB 0xFC // Rejestr XLSB temperatury
 
-// Rejestry kalibracyjne temperatury
 #define BMP280_REG_DIG_T1_LSB  0x88
 #define BMP280_REG_DIG_T1_MSB  0x89
 #define BMP280_REG_DIG_T2_LSB  0x8A
@@ -26,7 +25,6 @@
 #define BMP280_REG_DIG_T3_LSB  0x8C
 #define BMP280_REG_DIG_T3_MSB  0x8D
 
-// Rejestry kalibracyjne ciúnienia
 #define BMP280_REG_DIG_P1_LSB  0x8E
 #define BMP280_REG_DIG_P1_MSB  0x8F
 #define BMP280_REG_DIG_P2_LSB  0x90
