@@ -58,21 +58,7 @@ Cisnienie: 1028.50 hPa
 - Logowanie wyników na kartę SD.
 - Implementacja przerwań dla dokładniejszej obsługi czujnika.
 
-## Hardware setup
-
-Poniżej przykładowe podłączenie układu na płytce stykowej:
-
-![Układ na breadboardzie](images/image.jpg)
-
-Legenda przewodów:
-- Pomarańczowy → VCC (zasilanie)
-- Czarny → GND
-- żółty → SDA
-- zielony → SCL
-- czerwony → UART TX
-- niebieski → UART RX
-
-## Hardware setup
+## Podłączenie sprzętu
 
 Poniżej przykładowe podłączenie układu na płytce stykowej:
 
