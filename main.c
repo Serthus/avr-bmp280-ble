@@ -1,7 +1,7 @@
 // Project: Read temperature and pressure from BMP280 on AVR
 // Microcontroller: ATmega328P / Arduino Uno
 // Communication: I2C (TWI), UART for data transmission
-// Author: Kamil
+// Author: Kamil Kupis
 // Date: 24.09.2025
 // Description: Reads temperature and pressure from BMP280,
 // processes data and sends it over UART.
